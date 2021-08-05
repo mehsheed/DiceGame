@@ -5,6 +5,10 @@ public class Game {
 	private Die die1;
 	private Die die2;
 	private int val1,val2;
+	public Game()
+	{
+		this.player = new Player("random player");
+	}
 	
 	public Game (Player player)
 	{
